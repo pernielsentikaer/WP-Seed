@@ -1,0 +1,23 @@
+{
+  "name": "wpseed",
+  "version": "1.0.0",
+  "description": "WP Seed with SASS support",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maaggel/WP-Seed.git"
+  },
+  "author": "Maaggel",
+  "bugs": {
+    "url": "https://github.com/Maaggel/WP-Seed/issues"
+  },
+  "homepage": "https://github.com/Maaggel/WP-Seed#readme"
+}
