@@ -16,7 +16,7 @@ gulp.task('plugins', function() {
   gulp.src('plugins/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('../wp-content/templates'));
+    .pipe(gulp.dest('../wp-content/plugins'));
   gulp.src(['plugins/**/*', '!plugins/**/*.scss', '!plugins/**/.anchor'])
     .pipe(gulp.dest('../wp-content/plugins'));
 })
@@ -26,7 +26,7 @@ gulp.task('themes', function() {
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('../wp-content/themes'));
   gulp.src(['themes/**/*', '!themes/**/*.scss', '!themes/**/.anchor'])
-    .pipe(gulp.dest('../wp-content/templates'));
+    .pipe(gulp.dest('../wp-content/themes'));
 })
 
 gulp.task('watch-only', function() {
