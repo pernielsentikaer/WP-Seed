@@ -8,7 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Download Wordpress and install to project folder (MAMP, XAMPP etc.)
 2. Navigate to the wordpress root folder and clone this repo
-   git clone https://github.com/Maaggel/WP-Seed.git
+```
+git clone https://github.com/Maaggel/WP-Seed.git
+```
 3. Rename the new folder "WP-Seed" to "src"
 
 ### Installing
