@@ -12,6 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/Maaggel/WP-Seed.git
 ```
 3. Rename the new folder "WP-Seed" to "src"
+4. Navigate to the "src" folder - You're not ready to develop
 
 ### Installing
 
