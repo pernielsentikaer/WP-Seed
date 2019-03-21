@@ -9,17 +9,16 @@ These instructions will get you a copy of the project up and running on your loc
 1. Download Wordpress and install to project folder (MAMP, XAMPP etc.)
 2. Navigate to the wordpress root folder and clone this repo
 ```
-git clone https://github.com/Maaggel/WP-Seed.git
+git clone https://github.com/Maaggel/WP-Seed.git src
 ```
-3. Rename the new folder "WP-Seed" to "src"
-4. Navigate to the "src" folder - You're now ready to develop
+3. Navigate to the "src" folder - You're now ready to develop
 
 ### Installing
 
 This setup utilize gulp tasks to compress the content, and move it to the correct locations.
 To install and run this, please run
 ```
-npm-install
+npm install
 ```
 
 ## Development
